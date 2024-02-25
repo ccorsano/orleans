@@ -205,6 +205,33 @@ namespace Orleans.Analyzers {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Converter class cannot implement multiple IConverter&lt;,&gt; interfaces..
+        /// </summary>
+        internal static string ConverterSupportsSingleSurrogateTypeDescription {
+            get {
+                return ResourceManager.GetString("ConverterSupportsSingleSurrogateTypeDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Split {0} into multiple converter classes.
+        /// </summary>
+        internal static string ConverterSupportsSingleSurrogateTypeMessageFormat {
+            get {
+                return ResourceManager.GetString("ConverterSupportsSingleSurrogateTypeMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Multiple IConverter&lt;,&gt; interface on registered converter class.
+        /// </summary>
+        internal static string ConverterSupportsSingleSurrogateTypeTitle {
+            get {
+                return ResourceManager.GetString("ConverterSupportsSingleSurrogateTypeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The [Id] attribute must be unique to each members of the declaring type..
         /// </summary>
         internal static string IdClashDetectedDescription {

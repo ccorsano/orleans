@@ -13,6 +13,9 @@ namespace Orleans.Analyzers
         public const string GenerateSerializerAttributeName = "GenerateSerializer";
         public const string GenerateSerializerAttributeFullyQualifiedName = "global::Orleans.GenerateSerializerAttribute";
 
+        public const string RegisterConverterAttributeName = "RegisterConverter";
+        public const string ConverterInterfaceMetadataName = "Orleans.IConverter`2";
+
         public const string SerializableAttributeName = "Serializable";
 
         public const string NonSerializedAttribute = "NonSerialized";

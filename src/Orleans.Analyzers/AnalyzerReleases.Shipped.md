@@ -30,3 +30,11 @@ ORLEANS0013  | Usage   | Error  | This attribute should not be used on grain imp
 Rule ID | Category | Severity | Notes
 --------|----------|----------|--------------------
 ORLEANS0003  | Usage   | Error  | Inherit from Grain
+
+## Release 8.1.0
+
+### New Rules
+
+Rule ID | Category | Severity | Notes
+--------|----------|----------|--------------------
+ORLEANS0014  | Usage   | Error  | Prevent declaring multiple surrogate IConverter<,> in a single Converter class

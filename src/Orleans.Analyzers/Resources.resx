@@ -183,4 +183,13 @@
   <data name="IncorrectAttributeUseTitleDescription" xml:space="preserve">
     <value>This attribute should not be used on grain implementations.</value>
   </data>
+  <data name="ConverterSupportsSingleSurrogateTypeDescription" xml:space="preserve">
+    <value>Converter class cannot implement multiple IConverter&lt;,&gt; interfaces.</value>
+  </data>
+  <data name="ConverterSupportsSingleSurrogateTypeMessageFormat" xml:space="preserve">
+    <value>Split {0} into multiple converter classes</value>
+  </data>
+  <data name="ConverterSupportsSingleSurrogateTypeTitle" xml:space="preserve">
+    <value>Multiple IConverter&lt;,&gt; interface on registered converter class</value>
+  </data>
 </root>
